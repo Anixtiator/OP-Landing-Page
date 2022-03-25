@@ -1,64 +1,85 @@
-hero{
+.hero{
     background-color: #1F2937;
+    display: flexbox;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right:auto;
+    color: #f9faf8;
 
 }
-random-information{
+.random-information{
 
 }
-call-to-action-container-space{
-
-}
-footer{
-
-}
-logo{
-
-}
-header-link-one{
-
-}
-header-link-two{
-
-}
-header-link-three{
-
-}
-content{
-
-}
-content-img{
+.quote{
+    background-color: #e5e7eb;
     
-}
-information-heading{
 
 }
-image-one{
+.call-to-action-container-space{
 
 }
-image-two{
+.footer{
 
 }
-image-three{
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    text-align: start;
+    display: flex;
 
 }
-image-four{
+.header-link-one{
+    text-align: left;
+    padding-left: 1px;
+    padding-right: 50px;
+}
+.header-link-two{
 
 }
-subtext-one{
+.header-link-three{
 
 }
-subtext-two{
+.content{
+    font-size: 24px;
+    color: #f9faf8;
+    text-align: start;
+    display: flex;
+}
+.content-img{
 
 }
-subtext-three{
+.information-heading{
 
 }
-subtext-four{
+.image-one{
 
 }
-call-of-action{
+.image-two{
 
 }
-sign-up{
+.image-three{
+
+}
+.image-four{
+
+}
+.subtext-one{
+
+}
+.subtext-two{
+
+}
+.subtext-three{
+
+}
+.subtext-four{
+
+}
+.call-to-action{
+    background-color: #3882f6;
+
+}
+.sign-up{
 
 }
