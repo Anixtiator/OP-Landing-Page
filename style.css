@@ -1,9 +1,13 @@
+.main-container{
+    display: block;
+}
 .main-hero{
     background-color:#1f2937;
     height: 80vh;
 }
 
 .upper-container{
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
@@ -29,9 +33,15 @@
     margin: auto;
     margin-right: 6px;
 }
-nav{
+ul{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
     display: flex;
-    gap: 60px;
+    gap: 80px;
+}
+a{
+    color: #e5e7eb;
 }
 .parent-container{
     margin-top: 30px;
@@ -58,3 +68,112 @@ nav{
     height: 350px;
     background-color: #1f2937;
 }
+.information-hero{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 60vh;
+}
+.heading-info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.pride-moments{
+    margin:auto;
+    justify-content: center;
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+}
+p{
+    margin-bottom: 10px;
+}
+.info-img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    padding: 4px;
+    border-image: auto;
+}
+.quote-hero{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.quote{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.author{
+    text-align: right;
+    margin-right: 150px;
+}
+.cta-hero{
+    
+}
+
+.cta-container{
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    gap: 250px;
+
+}
+
+.cta-heading{
+    font-weight: bold;
+}
+.cta-right{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+button:hover{
+    background: white;
+    color: #4b38f6;
+
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    vertical-align: middle;
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px 2;
+    margin: auto;
+    text-align: center;
+    background-color: #1f2937;
+    height: 8vh;
+    color: #e5e7eb;
+}
+
